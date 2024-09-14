@@ -54,5 +54,7 @@ if __name__ == '__main__':
         for i in range(user_quantity):
                 user = configs[i*2]
                 pwd = configs[i*2+1]
+                print(user)
+                print(pwd)
                 sign(i,user,pwd)
         
